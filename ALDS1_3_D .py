@@ -15,7 +15,6 @@ for i in range(l):
 a = []
 m = -200000
 n = 0
-flag = False
 for i in range(l+1):
     if m == h[i] and i != 0:
         a.append([n,i,m])
